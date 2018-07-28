@@ -1,0 +1,217 @@
+a {
+  text-decoration:none;
+}
+
+body {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  background:url(../../image/contents_bg01.jpg);
+  margin: 0 0 10px;
+}
+
+h1, ul > li {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+h1 {
+  padding: 10px;
+  height: 50px;
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+ul {
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0;
+}
+ul > li {
+  margin-bottom: 7px;
+  padding: 7px 10px;
+  cursor: pointer;
+}
+
+
+#wrapper {
+    width: 100%;
+    position: relative;
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+}
+
+/* header */
+header{
+  height: 50px;
+  width: 100%;
+  top: 0px;
+  background-color: rgba(65, 105, 255, 0.8);
+  
+}
+
+
+.left-header{
+  float: left;
+  margin-left: 20px;
+}
+
+.title{
+  color: white;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.right-header{
+  float: right;
+}
+
+.right-header a{
+  line-height: 65px;
+    padding: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    
+}
+
+
+#container {
+  width: 500px;
+  margin: 30px auto;
+  padding: 50px;
+  background-color: white;
+  
+}
+#container h1{
+  background-color: white;
+}
+
+#container h2{
+  text-align: center;
+  font-size: 40px;
+  color          : #0000ff;    
+/*  text-shadow    : 
+       2px  2px 1px #003366,
+      -2px  2px 1px #003366,
+       2px -2px 1px #003366,
+      -2px -2px 1px #003366,
+       2px  0px 1px #003366,
+       0px  2px 1px #003366,
+      -2px  0px 1px #003366,
+       0px -2px 1px #003366; */       /* 文字の影 */
+
+}
+
+
+.answer {
+  background-color: white; 
+}
+
+#btn {
+  text-align: center;
+  float: right;
+  width: 100px;
+  padding: 7px;
+  color: #fff;
+  border-radius: 5px;
+  background: #00aaff;
+  box-shadow: 0 4px 0 #0088cc;
+  cursor: pointer;
+  font-size: 14px;
+}
+#btn.disabled {
+  opacity: 0.5;
+}
+
+.btn {
+  padding: 10px 30px;
+  margin-bottom: 0;
+  font-size: 18px;
+  border: 5px solid transparent;
+  border-radius: 0px;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+.correct {
+  color: limegreen;
+  font-weight: bold;
+}
+.wrong {
+  color: #ddd;
+}
+.selected {
+  font-weight: bold;
+}
+#result {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 30px 0 50px;
+  font-size: 30px;
+}
+#result > div {
+  font-size: 64px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+/* footer*/
+
+footer{
+  height: 50px;
+  width: 100%;
+  background-color: rgba(65, 105, 255, 0.8);
+  color:white;
+  text-align: center;
+  
+}
+ 
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+footer p{
+  padding-bottom: 15px;
+}
