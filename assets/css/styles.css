@@ -76,7 +76,7 @@ header{
 
 #container {
   width: 500px;
-  margin: 30px auto;
+  margin: 30px auto 120px auto;
   padding: 50px;
   background-color: white;
   
@@ -101,6 +101,12 @@ header{
 
 }
 
+.section {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    padding:0px 12px 0px 12px;
+}
 
 .answer {
   background-color: white; 
