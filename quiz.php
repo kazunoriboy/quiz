@@ -1,17 +1,5 @@
 <?php
  
-$title_a = 'Q1,ハイジャックの語源とは？';
-
-$choices_a = array(
-    'ジャックという名前が多かったから',
-    '空高いところで襲撃するから',
-    'テンションがハイだから',
-    '高い金銭を要求するから'
-);
-
-$answer_a = $choices_a[0];
-
-shuffle($choices_a);
 ?>
 
 <!DOCTYPE html>
@@ -34,15 +22,21 @@ shuffle($choices_a);
       <h2>雑学クイズ！</h2>
 
       <form method="POST" action="answer.php">
-        <h1><?php echo $title_a ?></h1>
+        <h1>ここに問題</h1>
         <ul>
-          <?php foreach ($choices_a as $choice_a) { ?>
-            <li>
-              <input type="radio" name="question_a" value="<?php echo $choice_a; ?>"><?php echo $choice_a; ?>
-            </li>
-          <?php } ?>
+          <li>
+            <input type="radio" name="question_a" value="">ここに4択回答 1
+          </li>
+          <li>
+            <input type="radio" name="question_a" value="">ここに4択回答 2
+          </li>
+          <li>
+            <input type="radio" name="question_a" value="">ここに4択回答 3
+          </li>
+          <li>
+            <input type="radio" name="question_a" value="">ここに4択回答 4
+          </li>
         </ul>
-        <input type="hidden" name="answer_a" value="<?php echo $answer_a ?>">
 
         <input type="submit" class="btn btn-primary" value="回答する!">
       </form>
