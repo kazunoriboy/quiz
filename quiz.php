@@ -39,12 +39,12 @@
       <h2>雑学クイズ！</h2>
 
       <form method="POST" action="answer.php">
-        <h1>ここに問題</h1>
+        <h1><?php echo $title_a ?></h1>
         <ul>
-          <li>
-            <input type="radio" name="question_a" value="">ここに4択回答 1
-          </li>
-          <li>
+          <?php foreach($choices_a as $choice_a){ ?>
+            <li><input type="radio" name="question_a" value=""><?php echo $choice_a; ?></li>
+          <?php } ?>
+         <!--  <li>
             <input type="radio" name="question_a" value="">ここに4択回答 2
           </li>
           <li>
@@ -52,7 +52,7 @@
           </li>
           <li>
             <input type="radio" name="question_a" value="">ここに4択回答 4
-          </li>
+          </li> -->
         </ul>
 
         <input type="submit" class="btn btn-primary" value="回答する!">
